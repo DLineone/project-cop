@@ -1,0 +1,59 @@
+.button
+{
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 5px;
+    border-radius: 10px;
+}
+
+.button:active
+{
+    transform: scale(0.9);
+}
+
+.default
+{
+    background-color: theme('colors.tradewind.400');
+}
+
+.default:hover
+{
+    background-color: theme('colors.tradewind.300');
+}
+
+.default:active
+{
+    background-color: theme('colors.tradewind.500');
+    color: theme('colors.vista-white.50');
+}
+
+.default:disabled
+{
+    background-color: theme('colors.tradewind.800');
+}
+
+.soft
+{
+    background-color: theme('colors.periwinkle-gray.400');
+}
+
+.soft:hover
+{
+    background-color: theme('colors.periwinkle-gray.300');
+}
+
+.soft:active
+{
+    background-color: theme('colors.periwinkle-gray.500');
+    color: theme('colors.vista-white.50');
+}
+
+.soft:disabled
+{
+    background-color: theme('colors.periwinkle-gray.800');
+}
